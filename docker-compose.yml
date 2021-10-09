@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  blog:
+    image: flask_blog:0.1
+    volumes:
+      - c:\code:/mat/
+    ports: 
+      - 8000:8000 
