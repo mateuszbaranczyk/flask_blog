@@ -1,6 +1,8 @@
 from flask import flash, redirect, render_template, url_for
 
 from flask_blog import app
+from flask_blog.forms import RegistrationForm, LoginForm
+
 
 posts = [
     {
